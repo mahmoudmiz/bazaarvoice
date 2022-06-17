@@ -25,8 +25,17 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <script
+      async
+      src="https://apps.bazaarvoice.com/deployments/grownalchemist/main_site/production/en_AU/bv.js"
+    ></script>
   </head>
   <body>
+    <div data-bv-show="reviews" data-bv-product-id="GRA0063"></div>
+
+    <div data-bv-show="rating_summary" data-bv-product-id="GRA0063"></div>
+    <div data-bv-show="review_highlights" data-bv-product-id="GRA0063"></div>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
